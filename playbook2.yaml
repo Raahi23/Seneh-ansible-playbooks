@@ -5,4 +5,8 @@
   vars:
     user: humayun
   tasks:
-    
+    - name: Creating user {{ user }}
+      user:
+        name: "{{ user }}"
+        state: present
+        comment: "{{ user }}@aol.com "
