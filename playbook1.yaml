@@ -1,0 +1,9 @@
+---
+- name: Create a file on Nasir
+  hosts: nasir
+  gather_facts: no
+  vars:
+    user: Kawshik
+
+  tasks:
+
