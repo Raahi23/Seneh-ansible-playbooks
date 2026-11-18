@@ -1,0 +1,8 @@
+---
+- name: Adding Kawshik user
+  host: sikandar
+  gather_facts: no
+  vars:
+    user: humayun
+  tasks:
+    
