@@ -6,4 +6,11 @@
     user: Kawshik
 
   tasks:
+    - name: Creating a file with my name
+      file: 
+        path: "/tmp/{{ user }}_logs.txt"
+        owner: seneh
+        group: seneh
+        mode: '0644'
+        state: touch
 
